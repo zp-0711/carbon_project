@@ -1,0 +1,123 @@
+
+*,
+*:before,
+*:after 
+    max-height 100000px
+    box-sizing border-box
+    -webkit-overflow-scrolling touch
+html, body, ul, li, ol, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{margin:0; padding:0;}
+body {
+    font-size 16px
+    line-height 1
+    word-wrap break-word
+    word-break normal
+}
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none;}
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0}
+select, input { vertical-align:middle; -webkit-appearance: none;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+.clearfix:before,.clearfix:after {/*清楚浮动*/
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+a {color:#666; text-decoration:none; }
+a:hover{
+    color:#33aa65;
+    cursor:pointer
+}
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.fl
+    float left
+.fr
+    float right
+.al
+    text-align left
+.ac 
+    text-align center
+.ar 
+    text-align right
+.hide
+    display none
+html,
+body
+    min-height 100%
+    box-sizing border-box
+    -webkit-touch-callout:none; /*系统默认菜单被禁用*/
+    // user-select:none
+body
+    font-family Helvetica,Tahoma,Arial,PingFang SC,Hiragino Sans GB,Heiti SC,STXihei,Microsoft YaHei,SimHei,WenQuanYi Micro Hei!important !important
+a
+    text-decoration none
+    &:hover
+        text-decoration none
+.flex-center
+    display flex
+    justify-content center
+    align-items center
+.flex-spaceBwtween
+    display flex
+    justify-content space-between
+.flex-end
+    display flex
+    align-items flex-end
+.flex-start
+    display flex
+    justify-content flex-start
+for i in 5 10 20 30 40 50
+    .pt{i}
+        padding-top i px
+    .mt{i}
+        margin-top i px
+.lh1
+    line-height 1
+.flex0
+    flex none
+for i in 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+    .f{i}
+        font-size i px
+for i in 1 2 3 4
+    .gline{i}
+        overflow hidden
+
+        text-overflow ellipsis
+
+        display -webkit-box
+
+        -webkit-box-orient vertical
+
+        -webkit-line-clamp i
+.w
+    min-width 980px
+    max-width 1126px
+    margin 0 auto
+.nw
+    min-width 980px
+    max-width 1290px
+    margin 0 auto
+.w-all
+    width 100%
+
+.el-carousel__container {
+  height: (100vw / 1366) * 400px !important;
+}
+.goback:hover {
+    cursor:pointer
+}
+.more:hover {
+    cursor:pointer
+}
+.tab:hover {
+    cursor:pointer
+}
+.nav:hover {
+    cursor:pointer
+}
+#app /deep/ .el-table--striped .el-table__body tr.el-table__row--striped td {
+    background rgba(249,255,251,1)
+}

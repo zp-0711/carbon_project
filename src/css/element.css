@@ -1,0 +1,109 @@
+.el-table__header {
+  border-top: 1px solid rgb(225, 225, 225);
+}
+
+.radioBox .el-radio-button,
+.radioBox .el-radio-button__inner {
+}
+.comTable .el-table__row {
+  cursor: pointer !important;
+}
+.gpsBox .el-input-group__prepend {
+  border: none !important;
+}
+.gpsBox .el-input-group__prepend,
+.estimateInput .el-input-group__append {
+  width: 60px;
+  height: 40px;
+  padding: 0;
+  text-align: center;
+  background: rgba(229, 229, 229, 1);
+  border-radius: 2px;
+  font-size: 16px;
+  color: rgba(165, 165, 165, 1);
+}
+.gpsBox .el-input__inner {
+  border: none;
+}
+.gpsBox {
+  border: 1px solid rgba(168, 168, 168, 1);
+  border-radius: 2px;
+}
+
+.registerForm .el-form-item,
+.gpsBox {
+  margin-bottom: 15px;
+}
+
+.detailStep {
+  margin-bottom: 23px;
+  width: 820px;
+  z-index: 20;
+}
+.detailStep .el-step__icon {
+  width: 30px;
+  height: 30px;
+}
+.detailStep .el-step__title {
+  margin-left: -16%;
+}
+
+/* 项目注册样式 */
+.listContent {
+  display: flex;
+}
+
+.listLeft,
+.listRight {
+  flex: 1;
+}
+
+.listContent .listLable {
+  width: 122px;
+}
+
+.listContent .el-form-item__label {
+  width: 122px !important;
+  padding: 0;
+  text-align: left;
+}
+
+.listContent .listLable,
+.listContent .el-form-item__label,
+.listTitle,
+.listContent .listMsg {
+  font-size: 16px !important;
+  font-family: Adobe Heiti Std;
+  font-weight: normal;
+  color: rgba(49, 49, 49, 1);
+}
+
+.listContent .listMsg {
+  width: 350px;
+}
+
+.listContent .el-form-item__content {
+  width: 350px;
+  display: flex;
+  margin: 0;
+}
+
+.listContent .listRow {
+  margin-bottom: 15px;
+  display: flex;
+  /* align-items: center; */
+}
+
+.listRight > .listRow {
+  height: 40px;
+  line-height: 40px;
+}
+
+.listComDiv {
+  width: 1096px;
+  padding: 20px 0px 60px 22px;
+}
+
+.dateDiv .el-input__inner {
+  border: none !important;
+}
